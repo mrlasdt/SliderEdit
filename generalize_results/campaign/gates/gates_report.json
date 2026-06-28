@@ -1,0 +1,160 @@
+{
+ "tau_sep": 0.02,
+ "tau_anchor": 0.03,
+ "step0_axis_separation": {
+  "curly": {
+   "margin_exemplar": 0.04400201141834259,
+   "margin_unedited": -0.003956153988838196,
+   "separation": 0.047958165407180786,
+   "crop": true,
+   "ok": true
+  },
+  "eyes_large": {
+   "margin_exemplar": 0.011474967002868652,
+   "margin_unedited": 0.0007765889167785645,
+   "separation": 0.010698378086090088,
+   "crop": true,
+   "ok": false
+  },
+  "hair_long": {
+   "margin_exemplar": -0.00847575068473816,
+   "margin_unedited": -0.011245161294937134,
+   "separation": 0.0027694106101989746,
+   "crop": true,
+   "ok": false
+  },
+  "glasses": {
+   "margin_exemplar": 0.04762613773345947,
+   "margin_unedited": -0.016985327005386353,
+   "separation": 0.06461146473884583,
+   "crop": true,
+   "ok": true
+  },
+  "hat": {
+   "margin_exemplar": 0.04038989543914795,
+   "margin_unedited": 0.014263510704040527,
+   "separation": 0.026126384735107422,
+   "crop": true,
+   "ok": true
+  },
+  "wavy": {
+   "margin_exemplar": 0.02147233486175537,
+   "margin_unedited": 0.04371058940887451,
+   "separation": -0.02223825454711914,
+   "crop": true,
+   "ok": false
+  },
+  "earrings": {
+   "margin_exemplar": 0.03485897183418274,
+   "margin_unedited": 0.009507641196250916,
+   "separation": 0.025351330637931824,
+   "crop": true,
+   "ok": true
+  },
+  "rosy": {
+   "margin_exemplar": 0.011435359716415405,
+   "margin_unedited": 0.004254564642906189,
+   "separation": 0.007180795073509216,
+   "crop": true,
+   "ok": false
+  },
+  "scarf": {
+   "margin_exemplar": 0.04213467240333557,
+   "margin_unedited": -0.014074862003326416,
+   "separation": 0.05620953440666199,
+   "crop": false,
+   "ok": true
+  },
+  "beach": {
+   "margin_exemplar": 0.04380956292152405,
+   "margin_unedited": -0.0581393837928772,
+   "separation": 0.10194894671440125,
+   "crop": false,
+   "ok": true
+  },
+  "suit": {
+   "margin_exemplar": 0.04727037250995636,
+   "margin_unedited": -0.03827303647994995,
+   "separation": 0.08554340898990631,
+   "crop": false,
+   "ok": true
+  },
+  "oil_painting": {
+   "margin_exemplar": 0.023991301655769348,
+   "margin_unedited": -0.005281552672386169,
+   "separation": 0.029272854328155518,
+   "crop": false,
+   "ok": true
+  },
+  "scars": {
+   "margin_exemplar": 0.011336803436279297,
+   "margin_unedited": -0.009301379323005676,
+   "separation": 0.020638182759284973,
+   "crop": true,
+   "ok": true
+  },
+  "facial_hair": {
+   "margin_exemplar": 0.04130375385284424,
+   "margin_unedited": -0.013628765940666199,
+   "separation": 0.05493251979351044,
+   "crop": true,
+   "ok": true
+  },
+  "potted_plant": {
+   "margin_exemplar": 0.02028144896030426,
+   "margin_unedited": -0.006627142429351807,
+   "separation": 0.026908591389656067,
+   "crop": false,
+   "ok": true
+  },
+  "snowy": {
+   "margin_exemplar": 0.03091578185558319,
+   "margin_unedited": -0.03926528990268707,
+   "separation": 0.07018107175827026,
+   "crop": false,
+   "ok": true
+  },
+  "flowers": {
+   "margin_exemplar": 0.02839621901512146,
+   "margin_unedited": -0.016366004943847656,
+   "separation": 0.044762223958969116,
+   "crop": false,
+   "ok": true
+  }
+ },
+ "step1_gstlora_gate": {
+  "potted_plant": {
+   "margin_a0": 0.02719290554523468,
+   "margin_a1": -0.005936414003372192,
+   "S": 0.03312931954860687,
+   "crop": false,
+   "anchor_ok": true
+  },
+  "snowy": {
+   "margin_a0": 0.03058934211730957,
+   "margin_a1": -0.030889421701431274,
+   "S": 0.061478763818740845,
+   "crop": false,
+   "anchor_ok": true
+  },
+  "oil_painting": {
+   "margin_a0": 0.034746915102005005,
+   "margin_a1": 0.03812442719936371,
+   "S": -0.0033775120973587036,
+   "crop": false,
+   "anchor_ok": false
+  },
+  "flowers": {
+   "margin_a0": 0.03323806822299957,
+   "margin_a1": -0.016888946294784546,
+   "S": 0.05012701451778412,
+   "crop": false,
+   "anchor_ok": true
+  }
+ },
+ "step2_guidance": {
+  "mean_cosine": 0.986751747758765,
+  "min_cosine": 0.9825145602226257,
+  "pass_0.95": true
+ }
+}

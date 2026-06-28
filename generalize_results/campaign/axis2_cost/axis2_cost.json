@@ -1,0 +1,30 @@
+{
+ "new_concept": "add a golden crown on the head",
+ "free": {
+  "pipe_load_once_s": 136.5,
+  "calibrate_marginal_s": 30.6,
+  "paired_edit_images_required": 0,
+  "text_prompt_pairs": 1,
+  "direction_KB": 228.1,
+  "weights_frozen": true,
+  "new_concept_controllable": "yes, immediately (continuous alpha)"
+ },
+ "trained": {
+  "STLoRA": {
+   "train_steps": 2000,
+   "batch": 6,
+   "data": "face-edit dataset, 35 fixed prompts",
+   "ckpt_MB": 67.3,
+   "paired_edit_data_required": true,
+   "new_concept_outside_prompt_set": "NOT controllable without a new training run"
+  },
+  "GSTLoRA": {
+   "train_steps": 1000,
+   "batch": 6,
+   "data": "HQ-Edit, 197350 paired triplets",
+   "ckpt_MB": 179.4,
+   "paired_edit_data_required": true
+  }
+ },
+ "box_note": "bf16 trainer does not fit the 23GB GPU (prior finding) -> training adds a hardware requirement free does not"
+}
